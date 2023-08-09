@@ -1,6 +1,20 @@
-function Home(){
-    content = '<div style="width:100vw;height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px"><p>Topa fazer uma coisa ilegal?</p><img src="https://i.postimg.cc/mZJkgkXD/ipilife.jpg"></div>';
-    return content;
-};
+import React from 'react';
+
+function Home() {
+    return (
+        <div style={{ 
+            width: '100vw', 
+            height: '100vh', 
+            display: 'flex', 
+            flexDirection: 'column', 
+            alignItems: 'center', 
+            justifyContent: 'center', 
+            gap: '20px' 
+        }}>
+            <h1>Topa fazer uma coisa... ilegal?</h1>
+            <img src="https://i.postimg.cc/mZJkgkXD/ipilife.jpg" alt="Imagem ilustrativa" />
+        </div>
+    );
+}
 
 export default Home;
